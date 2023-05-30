@@ -1,0 +1,64 @@
+LSM9DS1.cpp:38:1:LSM9DS1::LSM9DS1()	1
+LSM9DS1.cpp:43:1:LSM9DS1::LSM9DS1(interface_mode, uint8_t, uint8_t)	1
+LSM9DS1.cpp:48:6:void LSM9DS1::init(interface_mode, uint8_t, uint8_t)	2
+LSM9DS1.cpp:140:10:uint16_t LSM9DS1::begin()	4
+LSM9DS1.cpp:181:6:void LSM9DS1::initGyro()	13
+LSM9DS1.cpp:253:6:void LSM9DS1::initAccel()	11
+LSM9DS1.cpp:324:6:void LSM9DS1::calibrate(bool)	5
+LSM9DS1.cpp:364:6:void LSM9DS1::calibrateMag(bool)	8
+LSM9DS1.cpp:394:6:void LSM9DS1::magOffset(uint8_t, int16_t)	2
+LSM9DS1.cpp:405:6:void LSM9DS1::initMag()	7
+LSM9DS1.cpp:474:9:uint8_t LSM9DS1::accelAvailable()	1
+LSM9DS1.cpp:481:9:uint8_t LSM9DS1::gyroAvailable()	1
+LSM9DS1.cpp:488:9:uint8_t LSM9DS1::tempAvailable()	1
+LSM9DS1.cpp:495:9:uint8_t LSM9DS1::magAvailable(lsm9ds1_axis)	1
+LSM9DS1.cpp:503:6:void LSM9DS1::readAccel()	2
+LSM9DS1.cpp:518:9:int16_t LSM9DS1::readAccel(lsm9ds1_axis)	2
+LSM9DS1.cpp:531:6:void LSM9DS1::readMag()	1
+LSM9DS1.cpp:540:9:int16_t LSM9DS1::readMag(lsm9ds1_axis)	1
+LSM9DS1.cpp:547:6:void LSM9DS1::readTemp()	1
+LSM9DS1.cpp:556:6:void LSM9DS1::readGyro()	2
+LSM9DS1.cpp:571:9:int16_t LSM9DS1::readGyro(lsm9ds1_axis)	2
+LSM9DS1.cpp:586:7:float LSM9DS1::calcGyro(int16_t)	1
+LSM9DS1.cpp:592:7:float LSM9DS1::calcAccel(int16_t)	1
+LSM9DS1.cpp:598:7:float LSM9DS1::calcMag(int16_t)	1
+LSM9DS1.cpp:604:6:void LSM9DS1::setGyroScale(uint16_t)	3
+LSM9DS1.cpp:629:6:void LSM9DS1::setAccelScale(uint8_t)	5
+LSM9DS1.cpp:660:6:void LSM9DS1::setMagScale(uint8_t)	5
+LSM9DS1.cpp:696:6:void LSM9DS1::setGyroODR(uint8_t)	2
+LSM9DS1.cpp:713:6:void LSM9DS1::setAccelODR(uint8_t)	2
+LSM9DS1.cpp:730:6:void LSM9DS1::setMagODR(uint8_t)	1
+LSM9DS1.cpp:743:6:void LSM9DS1::calcgRes()	1
+LSM9DS1.cpp:748:6:void LSM9DS1::calcaRes()	1
+LSM9DS1.cpp:753:6:void LSM9DS1::calcmRes()	5
+LSM9DS1.cpp:774:6:void LSM9DS1::configInt(interrupt_select, uint8_t, h_lactive, pp_od)	3
+LSM9DS1.cpp:795:6:void LSM9DS1::configInactivity(uint8_t, uint8_t, bool)	2
+LSM9DS1.cpp:806:9:uint8_t LSM9DS1::getInactivity()	1
+LSM9DS1.cpp:813:6:void LSM9DS1::configAccelInt(uint8_t, bool)	2
+LSM9DS1.cpp:822:6:void LSM9DS1::configAccelThs(uint8_t, lsm9ds1_axis, uint8_t, bool)	2
+LSM9DS1.cpp:835:9:uint8_t LSM9DS1::getAccelIntSrc()	2
+LSM9DS1.cpp:848:6:void LSM9DS1::configGyroInt(uint8_t, bool, bool)	3
+LSM9DS1.cpp:858:6:void LSM9DS1::configGyroThs(int16_t, lsm9ds1_axis, uint8_t, bool)	2
+LSM9DS1.cpp:875:9:uint8_t LSM9DS1::getGyroIntSrc()	2
+LSM9DS1.cpp:888:6:void LSM9DS1::configMagInt(uint8_t, h_lactive, bool)	4
+LSM9DS1.cpp:902:6:void LSM9DS1::configMagThs(uint16_t)	1
+LSM9DS1.cpp:910:9:uint8_t LSM9DS1::getMagIntSrc()	2
+LSM9DS1.cpp:923:6:void LSM9DS1::sleepGyro(bool)	2
+LSM9DS1.cpp:931:6:void LSM9DS1::enableFIFO(bool)	2
+LSM9DS1.cpp:939:6:void LSM9DS1::setFIFO(fifoMode_type, uint8_t)	1
+LSM9DS1.cpp:947:9:uint8_t LSM9DS1::getFIFOSamples()	1
+LSM9DS1.cpp:952:6:void LSM9DS1::constrainScales()	12
+LSM9DS1.cpp:973:6:void LSM9DS1::xgWriteByte(uint8_t, uint8_t)	3
+LSM9DS1.cpp:983:6:void LSM9DS1::mWriteByte(uint8_t, uint8_t)	3
+LSM9DS1.cpp:993:9:uint8_t LSM9DS1::xgReadByte(uint8_t)	3
+LSM9DS1.cpp:1004:6:void LSM9DS1::xgReadBytes(uint8_t, uint8_t*, uint8_t)	3
+LSM9DS1.cpp:1014:9:uint8_t LSM9DS1::mReadByte(uint8_t)	3
+LSM9DS1.cpp:1025:6:void LSM9DS1::mReadBytes(uint8_t, uint8_t*, uint8_t)	3
+LSM9DS1.cpp:1035:6:void LSM9DS1::initSPI()	1
+LSM9DS1.cpp:1052:6:void LSM9DS1::SPIwriteByte(uint8_t, uint8_t, uint8_t)	1
+LSM9DS1.cpp:1064:9:uint8_t LSM9DS1::SPIreadByte(uint8_t, uint8_t)	1
+LSM9DS1.cpp:1073:6:void LSM9DS1::SPIreadBytes(uint8_t, uint8_t, uint8_t*, uint8_t)	1
+LSM9DS1.cpp:1092:6:void LSM9DS1::initI2C()	1
+LSM9DS1.cpp:1099:6:void LSM9DS1::I2CwriteByte(uint8_t, uint8_t, uint8_t)	1
+LSM9DS1.cpp:1108:9:uint8_t LSM9DS1::I2CreadByte(uint8_t, uint8_t)	3
+LSM9DS1.cpp:1137:9:uint8_t LSM9DS1::I2CreadBytes(uint8_t, uint8_t, uint8_t*, uint8_t)	4

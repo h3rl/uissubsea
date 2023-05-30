@@ -1,0 +1,7 @@
+../Core/Src/packets.cpp:15:1:PacketHandler::PacketHandler()	16	static
+../Core/Src/packets.cpp:20:1:PacketHandler::~PacketHandler()	16	static
+../Core/Src/packets.cpp:20:1:virtual PacketHandler::~PacketHandler()	16	static
+../Core/Src/packets.cpp:25:6:void PacketHandler::setEcho(bool)	16	static
+../Core/Src/packets.cpp:30:6:void PacketHandler::processData(uint8_t*, size_t)	24	static
+../Core/Src/packets.cpp:58:6:void PacketHandler::clearBuffer()	16	static
+../Core/Src/packets.cpp:64:6:void PacketHandler::appendBuffer(uint8_t*, size_t)	24	static
